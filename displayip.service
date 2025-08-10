@@ -1,0 +1,13 @@
+[Unit]
+Description=Display IP on LCD
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/env python3 /usr/local/bin/displayip.py
+Restart=always
+User=root
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
