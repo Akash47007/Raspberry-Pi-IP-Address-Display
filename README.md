@@ -31,3 +31,6 @@ Make sure that the lcd is configured properly according to rpi_lcd library. Visi
 Both versions have the same service file and software setup process.
 
 You can also create a virtual environment and update the service file accordingly if you know what you are doing. This by default uses a system wide interpreter.
+
+# Demo Video
+https://drive.google.com/file/d/1sAEJqlyJYJk3deC61e6L2ZMwRegrrnbq/view?usp=sharing
