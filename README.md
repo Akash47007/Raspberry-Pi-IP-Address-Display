@@ -1,5 +1,5 @@
 # Raspberry-Pi-IP-Address-Display
-This project focusses on displaying the IP address and providing basic functionality through a LCD display.
+This project focusses on displaying the IP address and providing basic functionality through a LCD display to facilitate headless usage of Raspberry Pi SBC devices.
 
 # Full version:
 This version provides functionality like **shutdown** and **reboot** along with the IP address display functionality. It uses two pushbuttons in addition to perform this action, one is change option button connected to gpio 23 by default and the other is the action button, connected to gpio 24 by default. The gpio pins corresponding to these buttons can be changes in the code.
